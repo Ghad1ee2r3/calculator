@@ -10,15 +10,27 @@ def main():
 	op= input("Choose the operation (+, -, /, *): ")
 	if op=="+":
 		print(int_num1+int_num1)
+	elif op=="-":
+		print( int_num1-int_num1)
+	elif op=="*":
+		print( int_num1*int_num1)
+	elif op=="/":
+		print( int_num1/int_num1)
 	else:
-		if op=="-":
-			print( int_num1-int_num1)
-		else:
-			if op=="*":
-				 print( int_num1*int_num1)
-			else:
-				if op=="/":
-					print( int_num1/int_num1)
+		print( "you are enter invalid operation")
+
+
+	#if op=="+":
+	#	print(int_num1+int_num1)
+	#else:
+	#	if op=="-":
+		#	print( int_num1-int_num1)
+		#else:
+		#	if op=="*":
+		#		 print( int_num1*int_num1)
+		#	else:
+		#		if op=="/":
+		#			print( int_num1/int_num1)
 
 
 
