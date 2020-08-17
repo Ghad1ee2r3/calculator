@@ -1,7 +1,7 @@
 
 def main():
 	#write your code here
-	pass
+	
 	num1= input("Enter a number one:")
 	num2= input("Enter a number two:")
 	int_num1= int(num1)
